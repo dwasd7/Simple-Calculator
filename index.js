@@ -15,11 +15,11 @@ buttons.forEach( button => {
       { 
         try{
             display.innerText = eval(display.innerText);
+          }
+          catch(err){
+            display.innerText = "Error";
+          }
         }
-        catch(err){
-          display.innerText = "Error";
-        }
-      }
       else
         display.innerText += e.target.innerText;
   });
