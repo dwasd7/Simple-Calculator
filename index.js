@@ -17,7 +17,7 @@ buttons.forEach( button => {
             display.innerText = eval(display.innerText);
         }
         catch(err){
-          display.innerText = "Error! STOOPID!!";
+          display.innerText = "Error";
         }
       }
       else
